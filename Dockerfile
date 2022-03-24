@@ -9,5 +9,5 @@ RUN apt-get update && \
     apt-get install -y dotnet-sdk-6.0
 
 
-ADD ctc-be /home/ctc-be
-ENTRYPOINT dotnet run --project /home/ctc-be/ChildrenToChildren
+ADD ChildrenToChildren /home/ChildrenToChildren
+ENTRYPOINT dotnet run --project /home/ChildrenToChildren
